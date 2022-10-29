@@ -8,12 +8,12 @@ from random import randrange, randint
 
 # Initialize parameters
 base_path = '/workspaces/email topic model/email_topic_model'
-test_corpus_path = f'{base_path}/data/test_corpus.pkl'
-test_pdf_path = f'{base_path}/data/test_pdf.pkl'
-tf_vectorizer_model_path = f'{base_path}/models/tf_vectorizer_model.pkl'
-tfidf_vectorizer_model_path = f'{base_path}/models/tfidf_vectorizer_model.pkl'
-topic_dict_path = f'{base_path}/data/topic_dict.pkl'
-lda_model_path = f'{base_path}/models/lda_model.pkl'
+test_corpus_path = '/data/test_corpus.pkl'
+test_pdf_path = '/data/test_pdf.pkl'
+tf_vectorizer_model_path = '/models/tf_vectorizer_model.pkl'
+tfidf_vectorizer_model_path = '/models/tfidf_vectorizer_model.pkl'
+topic_dict_path = '/data/topic_dict.pkl'
+lda_model_path = '/models/lda_model.pkl'
 
 # Main function that drives the webpage
 def main():
