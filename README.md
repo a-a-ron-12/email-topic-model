@@ -14,7 +14,7 @@ There are 2 main components to the project, including the machine learning pipel
   - Exploratory Data Analysis (EDA) / Training
   - Inference
 2) App
-  - Main app
+  - Separate GitHub for deployable UI demo: https://github.com/aaronjmedina/email-topic-app.git
 
 # Technologies
 - Python
@@ -32,3 +32,6 @@ The project is ready for review.
 # Results
 Based on my email extraction data, 3 meaninguful topics were derived from the message content, and identified with the LDA model. Since this is an unsupervised approach, it is difficult to measure the metric results. We perform inference on the test dataset and see if the overall direction of the assigned topics align with the content of the test messages. The messages seem to fit pretty well with a few looking to be misappropriated to ambiguous buckets.
 We can then visualize the expected outputs with the demo UI, contained from the app.py script. The PowerPoint presentation will present more findings and details related to the project.
+
+# References
+[![Streamlit App[(https://aaronjmedina-email-topic-app-app-3l0pjx.streamlitapp.com)]
